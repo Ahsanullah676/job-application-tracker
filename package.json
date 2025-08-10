@@ -1,0 +1,23 @@
+{
+  "name": "job-tracker",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "homepage": "https://Ahsanullah676.github.io/job-application-tracker",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "react": "...",
+    "react-dom": "...",
+    "tailwindcss": "..."
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0",
+    "vite": "..."
+  }
+}
